@@ -414,3 +414,7 @@ button:focus {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
+.custumers {
+  display: flex;
+}
