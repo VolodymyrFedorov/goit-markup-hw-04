@@ -537,8 +537,8 @@ button:focus {
   justify-content: center;
 }
 
-.footer-social-item:hover,
-.footer-social-item:focus {
+.footer-sotial-link:hover,
+.footer-sotial-link:focus {
   background-color: #31d0aa;
 }
 
