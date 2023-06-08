@@ -359,6 +359,36 @@ button:focus {
   gap: 24px;
 }
 
+.sotial-networks {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.sotial_network {
+  width: 40px;
+  height: 40px;
+}
+
+.sotial-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--logo-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sotial-link:hover,
+.sotial-link:focus {
+  background-color: #404bbf;
+}
+
+.sotial-item {
+  fill:var(--batnsp)
+}
+
 .section-five {
   padding-top: 120px;
   padding-bottom: 120px;
