@@ -214,11 +214,6 @@ button:focus {
   margin-right: 120px;
 }
 
-svg {
-  width: 64px;
-  height: 64px;
-}
-
 .features-item {
   display: flex;
   align-items: center;
@@ -458,5 +453,3 @@ svg {
   color: #f4f4fd;
   max-width: 264px;
 }
-
-
