@@ -6,6 +6,7 @@
   --studio: #2e2f42;
   --batnsp: #f4f4fd;
   --border-buttons: #e7e9fc;
+  --customer:#8e8f99;
 }
 
 h1,
@@ -410,6 +411,26 @@ button:focus {
 .customer-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
+}
+
+.customer-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border: radius 4px;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   color:var(--customer);
+}
+
+.customer-link:hover, .customer-link:focus {
+  border-color: #404bbf;
+  color: #404bbf; 
+}
+
+.customer-type {
+  fill: currentColor;
 }
 
 .app {
