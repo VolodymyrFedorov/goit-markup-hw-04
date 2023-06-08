@@ -403,8 +403,9 @@ svg {
 .customers {
   font-size: 36px;
   line-height: 1.11;
-  color:var(--studio);
+  color: var(--studio);
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .custumers-list {
@@ -458,6 +459,6 @@ svg {
   padding-bottom: 120px;
 }
 
-.custumers {
-  display: flex;
-}
+
+
+
