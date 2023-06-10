@@ -108,6 +108,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
+  color: #2e2f42;
 }
 .main-nav:hover {
   color: #404bbf;
@@ -279,6 +280,8 @@ button:focus {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 .section-two {
@@ -394,6 +397,18 @@ button:focus {
 
 .sotial-item {
   fill: var(--batnsp);
+  left: 30%;
+  right: 30%;
+  top: 30%;
+  bottom: 30%;
+}
+
+.sotial-item-footer {
+  fill: var(--batnsp);
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
 }
 
 .section-five {
@@ -430,14 +445,14 @@ button:focus {
   color: var(--customer);
 }
 
+.customer-type {
+  fill: currentColor;
+}
+
 .customer-link:hover,
 .customer-link:focus {
   border-color: #404bbf;
   color: #404bbf;
-}
-
-.customer-type {
-  fill: currentColor;
 }
 
 .app {
@@ -553,4 +568,5 @@ button:focus {
 
 .footer-logo-span {
   margin-right: 120px;
+  margin-left: 156px;
 }
