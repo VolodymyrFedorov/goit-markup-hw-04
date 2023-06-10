@@ -528,9 +528,9 @@ button:focus {
 }
 
 .container-footer {
-  margin-right: 120px;
   display: flex;
   align-items: baseline;
+  margin-left: 156px;
 }
 
 .social-media {
@@ -568,5 +568,4 @@ button:focus {
 
 .footer-logo-span {
   margin-right: 120px;
-  margin-left: 156px;
 }
